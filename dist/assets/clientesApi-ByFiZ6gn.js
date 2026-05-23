@@ -1,0 +1,1 @@
+import{a as e}from"./api-5Xn1ZIfD.js";async function i(a={}){const t=await e.get("/clientes",{params:a});return{data:t.data.data,meta:t.data.meta}}async function r(a){return(await e.get(`/clientes/${a}`)).data.data}async function c(a,t){return(await e.put(`/clientes/${a}/estado`,{estado:t})).data.data}export{i as a,c,r as g};

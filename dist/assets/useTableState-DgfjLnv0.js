@@ -1,0 +1,1 @@
+import{r as t}from"./index-Clxwp-UO.js";function g({defaultPageSize:e=20}={}){const[s,a]=t.useState([]),[o,n]=t.useState([]),[r,i]=t.useState({pageIndex:0,pageSize:e}),[l,u]=t.useState("");return{sorting:s,setSorting:a,columnFilters:o,setColumnFilters:n,pagination:r,setPagination:i,globalFilter:l,setGlobalFilter:u}}export{g as u};

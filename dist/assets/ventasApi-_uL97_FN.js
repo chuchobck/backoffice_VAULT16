@@ -1,0 +1,1 @@
+import{a as r}from"./api-5Xn1ZIfD.js";async function e(a={}){const t=await r.get("/facturas",{params:a});return{data:t.data.data,meta:t.data.meta}}async function n(a){return(await r.get(`/facturas/${a}`)).data.data}async function u(a,t){return(await r.put(`/facturas/${a}/estado`,{estado:t})).data.data}export{e as a,u as c,n as g};

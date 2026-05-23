@@ -1,0 +1,1 @@
+import{a as s}from"./api-5Xn1ZIfD.js";async function n(a={}){const t=await s.get("/admin/sesiones",{params:a});return{data:t.data.data,meta:t.data.meta}}async function i(a){return(await s.get(`/assistant/sesiones/${a}`)).data.data}async function r(){return(await s.get("/admin/metricas-ia")).data.data}export{i as a,n as b,r as g};
